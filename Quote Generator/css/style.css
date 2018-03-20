@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+  background-color: black;
+  color: white;
+}
+
+blockquote {
+  display: inline-block;
+  padding: 20px 50px 25px 50px;
+  border-width: 2px;
+  margin: 30px;
+}
+
+hr {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+h1 {
+  margin: 40px;
+}
+
+.btn {
+  margin: 3px;
+}
+
+.quote:before {
+  content: open-quote;
+}
+.quote:after {
+  content: close-quote;
+}
+
+
+
+
+

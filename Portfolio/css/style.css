@@ -127,6 +127,11 @@ About
 ================================
 */
 
+.tech-list {
+    text-indent: 50px;
+    line-height: 20px;
+}
+
 .about-section {
     border-top: solid;
     border-bottom: solid;
@@ -192,6 +197,14 @@ bold {
 
 }
 
+.tech-text {
+    line-height: .5em;
+}
+
+.tech-head {
+    line-height: 100px;
+}
+
 a,
 a:hover {
     color: GhostWhite;
@@ -203,6 +216,12 @@ a:hover {
 
 .center-text {
     text-align: center;
+}
+
+.to-learn-list {
+    text-indent: 50px;
+    list-style: none;
+    
 }
 
 /*
