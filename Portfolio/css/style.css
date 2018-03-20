@@ -1,24 +1,27 @@
 /* 
 ==========================
 Layout
-==========================*/
+==========================
+*/
+
 .container-fluid {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
-body,html {
-  height: 100%;
-  font-family: 'Roboto', sans-serif;
+body,
+html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
 
 }
 
 .group:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /*
@@ -27,75 +30,77 @@ Header
 ==========================
 */
 
-
-
 header {
-  width: 60%;
-  border-bottom: solid;
+    width: 60%;
+    border-bottom: solid;
 }
 
 .about {
-  float:left;
+    float: left;
 }
 
 .portfolio {
-  float: right;
+    float: right;
 }
 
-.about, .portfolio {
-  padding: 0 20px;
+.about,
+.portfolio {
+    padding: 0 20px;
 }
 
 .header-background {
-background-color: black;
-  overflow: auto;
+    background-color: black;
+    overflow: auto;
 }
 
 h1 {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 300;
-  padding-top: 15px;
-  margin: 0;
-  font-size: 64px;
-  color: GhostWhite;
-  letter-spacing: 5px;
-  text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    padding-top: 15px;
+    margin: 0;
+    font-size: 64px;
+    color: GhostWhite;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }
 
 .primary-nav {
-  font-family: 'Cormorant Garamond', serif;
-  letter-spacing: 2px;
-  color: GhostWhite;
-  float: right;
-  text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 2px;
+    color: GhostWhite;
+    float: right;
+    text-transform: uppercase;
 }
+
 /* 
 ==========================
 Media
 ==========================
 */
 
-.connect{
-  font-weight: 100;
-  color: GhostWhite;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  letter-spacing: 1px;
-  margin: 0;
-  padding: 25px;
+.connect {
+    font-weight: 100;
+    color: GhostWhite;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 25px;
 }
+
 .media {
-  width: 25%;
-  padding: 10px;
-  margin: auto;
+    width: 25%;
+    padding: 10px;
+    margin: auto;
 }
+
 .btn {
-  width: 125px;
+    width: 125px;
 }
 
 .bg {
-  background-image: url("http://www.publicdomainpictures.net/pictures/160000/velka/ordinateur-de-bureau-pc-1456070535WEH.jpg");
-  background-position: center center;
-  height: 600px;
+    background-image: url("http://www.publicdomainpictures.net/pictures/160000/velka/ordinateur-de-bureau-pc-1456070535WEH.jpg");
+    background-position: center center;
+    height: 600px;
 }
 
 /*
@@ -105,15 +110,15 @@ Quote
 */
 
 .quote {
-  font-weight: 100;
-  color: GhostWhite;
-  background: black;
-  border-left: none;
-  letter-spacing: .25em;
-  line-height: 2em;
-  padding: 40px 0;
-  margin: 0;
-  
+    font-weight: 100;
+    color: GhostWhite;
+    background: black;
+    border-left: none;
+    letter-spacing: .25em;
+    line-height: 2em;
+    padding: 40px 0;
+    margin: 0;
+
 }
 
 /* 
@@ -123,76 +128,81 @@ About
 */
 
 .about-section {
-  border-top: solid;
-  border-bottom: solid;
-  margin: 0;
-  width: 100%;
-  height: 100px;
-  background: black;
+    border-top: solid;
+    border-bottom: solid;
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    background: black;
 }
 
 .about-text {
-  font-family: 'Cormorant Garamond', serif;
-  color: Ghostwhite;
-  margin: 0;
-  line-height: 100px;
-  text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    color: Ghostwhite;
+    margin: 0;
+    line-height: 100px;
+    text-transform: uppercase;
 }
 
 .bio {
-  padding-top: 50px;
-  max-width: 80%;
-  margin: auto;
+    padding-top: 50px;
+    max-width: 80%;
+    margin: auto;
 }
 
 .about-left {
-  float: left;
-  max-width: 40%;
+    float: left;
+    max-width: 40%;
 }
 
 .about-right {
-  float: left;
+    float: left;
     width: 55%;
-  margin-left: 50px;
-  border-sizing: border-box;
+    margin-left: 50px;
+    border-sizing: border-box;
 }
 
 img.selfie {
-  float: left;
-  border-style: solid;
-  border-color: grey;
-  border-radius: 50%;
-  border-width: 2px;
-  margin-right: 15px;
+    float: left;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 50%;
+    border-width: 2px;
+    margin-right: 15px;
 }
 
 .autobio {
     font-family: 'Cormorant Garamond', serif;
-  color: black;
-  margin: 0;
-  line-height: 100px;
-  text-transform: uppercase; 
-  letter-spacing: .2em;
-  
+    color: black;
+    margin: 0;
+    line-height: 100px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+
 }
+
 bold {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 .bio-text {
     font-family: 'Roboto', sans-serif;
-  letter-spacing: .1em;
-  line-height: 1.5em;
+    letter-spacing: .1em;
+    line-height: 1.5em;
 
 }
 
 a,
-a:hover{
-  color: GhostWhite;
+a:hover {
+    color: GhostWhite;
 }
 
 .about-left a {
-  color: black;
+    color: black;
+}
+
+.center-text {
+    text-align: center;
 }
 
 /*
@@ -202,27 +212,65 @@ SKILLS
 */
 
 .container {
-    width: 100%; /* Full width */
-    background-color: #ddd; /* Grey background */
-  padding: 0;
+    width: 100%;
+    /* Full width */
+    background-color: #ddd;
+    /* Grey background */
+    padding: 0;
 }
 
 .skills {
-    text-align: right; /* Right-align text */
-    padding-right: 20px; /* Add some right padding */
-    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
-    color: white; /* White text color */
+    text-align: right;
+    /* Right-align text */
+    padding-right: 20px;
+    /* Add some right padding */
+    line-height: 40px;
+    /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white;
+    /* White text color */
 }
 
-.html {width: 90%; background-color: #4CAF50;} /* Green */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
-.js {width: 65%; background-color: #f44336;} /* Red */
-.php {width: 60%; background-color: #808080;} /* Dark Grey */
-.mysql{width: 50%; background-color: #9966ff;}
+.html {
+    width: 90%;
+    background-color: #4CAF50;
+}
 
-.java {width: 70%; background-color: #cccc00}
+/* Green */
 
-.python {width: 70%; background-color: #33cccc;
+.css {
+    width: 80%;
+    background-color: #2196F3;
+}
+
+/* Blue */
+
+.js {
+    width: 65%;
+    background-color: #f44336;
+}
+
+/* Red */
+
+.php {
+    width: 60%;
+    background-color: #808080;
+}
+
+/* Dark Grey */
+
+.mysql {
+    width: 50%;
+    background-color: #9966ff;
+}
+
+.java {
+    width: 70%;
+    background-color: #cccc00
+}
+
+.python {
+    width: 70%;
+    background-color: #33cccc;
 }
 
 /*
@@ -233,43 +281,41 @@ Portfolio
 
 .portfolio-header {
     border-top: solid;
-  border-bottom: solid;
-  border-color: grey;
-  width: 100%;
-  height: 100px;
-  background: black;
-  margin: 0;
+    border-bottom: solid;
+    border-color: grey;
+    width: 100%;
+    height: 100px;
+    background: black;
+    margin: 0;
 }
 
 .portfolio-header h3 {
-  font-family: 'Cormorant Garamond', serif;
-  color: Ghostwhite;
-  margin: 0;
-  line-height: 100px;
-  text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    color: Ghostwhite;
+    margin: 0;
+    line-height: 100px;
+    text-transform: uppercase;
 }
 
 .preview {
-  background-color: black;
+    background-color: black;
 }
-.preview-spacing{
-  padding: 100px 0;
+
+.preview-spacing {
+    padding: 100px 0;
 }
+
 .preview-image {
-  border-style: solid;
-  border-width: 2px;
-  border-color: grey;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
 }
 
 .caption {
     font-family: 'Roboto', sans-serif;
-  color: white;
-  text-align: center;
-  font-size: 40px;
-  letter-spacing: .1em;
-  line-height: 2em;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: .1em;
+    line-height: 2em;
 }
-
-
-
-
