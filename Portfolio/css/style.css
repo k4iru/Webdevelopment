@@ -26,12 +26,13 @@ html {
 
 .flex-container {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background: GhostWhite;
 }
 
 /*
@@ -74,12 +75,13 @@ h1 {
     text-transform: uppercase;
 }
 
-.primary-nav {
+#primary-nav {
     font-family: 'Cormorant Garamond', serif;
     letter-spacing: 2px;
     color: GhostWhite;
     float: right;
     text-transform: uppercase;
+    transition: top 0.3s;
 }
 
 /* 
@@ -98,9 +100,11 @@ Media
 }
 
 .media {
-    width: 25%;
-    padding: 10px;
-    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn {
@@ -176,7 +180,6 @@ About
     float: left;
     width: 55%;
     margin-left: 50px;
-    border-sizing: border-box;
 }
 
 img.selfie {
@@ -338,7 +341,7 @@ Portfolio
 }
 
 .preview {
-    background-color: Ghostwhite;
+    background-color: black;
 }
 
 .preview-spacing {
@@ -364,16 +367,33 @@ Portfolio
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     padding: 10px;
+    margin: 10px;
 }
 
 .card:hover {
-    box-shadow 0 8px 16px 0 rgba(25,25,0,0.2);
+    box-shadow 0 20px 16px 0 rgba(25,25,0,0.5);
 }
 
 .container-desc {
     padding: 2px 16px;
+    margin: 10px;
 }
 
 .card-text {
     color: black;
 }
+
+.portfolio-icon {
+    margin: 1% 5%;
+}
+
+i:hover {
+    color: #585858;
+}
+
+i {
+    color: #303030;
+}
+
+
+

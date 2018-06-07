@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <title>Portfolio Webpage</title>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://use.fontawesome.com/7ca5842202.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
     <script src="script.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400|Roboto:100,400,700" rel="stylesheet">
@@ -13,7 +12,7 @@
 
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css'>
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
 
@@ -25,7 +24,7 @@
         <div class="header-background">
             <header class="text-center center-block">
                 <h1>Kyle Cheung</h1>
-                <nav class="primary-nav">
+                <nav id="primary-nav">
                     <h3 class="about"><a href="#toAbout">About</a></h3>
                     <h3 class="portfolio"><a href="#toPortfolio">Portfolio</a></h3>
                 </nav>
@@ -33,15 +32,15 @@
         </div>
         <div class="bg">
             <h3 class="text-center connect">connect with me on...</h3>
-            <section class="row media">
-                <div class="col-md-4">
-                    <a href="https://www.linkedin.com/in/k4iru/" target="_blank" class="btn btn-block btn-social btn-linkedin"><span class="fa fa-linkedin"></span> LinkedIn</a>
+            <section class="media">
+                <div class="">
+                    <a href="https://www.linkedin.com/in/k4iru/" target="_blank" class="btn btn-block btn-social btn-linkedin"><span class="fab fa-linkedin"></span> LinkedIn</a>
                 </div>
-                <div class="col-md-4">
-                    <a href="https://github.com/k4iru" target="_blank" class="btn btn-block btn-social btn-github"><span class="fa fa-github"></span> Github</a>
+                <div class="">
+                    <a href="https://github.com/k4iru" target="_blank" class="btn btn-block btn-social btn-github"><span class="fab fa-github"></span> Github</a>
                 </div>
-                <div class="col-md-4">
-                    <a href="https://www.instagram.com/k4iru" target="_blank" class="btn btn-block btn-social btn-instagram"><span class="fa fa-instagram"></span> Instagram</a>
+                <div class="">
+                    <a href="https://www.instagram.com/k4iru" target="_blank" class="btn btn-block btn-social btn-instagram"><span class="fab fa-instagram"></span> Instagram</a>
                 </div>
             </section>
         </div>
@@ -60,12 +59,16 @@
                     <img src="/assets/images/profile.jpg" alt="kyle cheung" class="img-responsive selfie" height="200" width="200">
                     <h3 class="autobio">Who Am I?</h3>
                     <p class="bio-text">
-                        <bold>Kyle Cheung</bold> is an aspiring Full Stack Developer, specializing in Front-End Development. <br><br> He is experienced in retouching, mobile, web and user experience design. He has the abiliy to apply and learn new skills on the spot. A jack of all trades, he is skilled in
+                        <bold>Kyle Cheung</bold> is an aspiring Full Stack Developer with a passion for learning. <br><br> He is experienced in retouching, mobile, web and user experience designs. He has the ability to apply and learn new skills on the spot. A jack of all trades, he is skilled in traditional languages like
+                        <bold>Java</bold>, and
+                        <bold>Python</bold> as well as Web Development languages like
                         <bold>HTML</bold>,
                         <bold>CSS</bold>, and
-                        <bold>JavaScript</bold> as well as other back-end tools such as
-                        <bold>PHP</bold> and
-                        <bold>MySQL</bold>. <br><br> He is driven, passionate, and committed to producing great designs and positive user experiences. He lives to broaden his understanding of development principles and to utilize the knowledge by creating profound connections with a variety of audiences. Detail oriented, he thrives on learning about new innovative methods. <br><br> In his free time, he is busy creating and designing new projects and templates. He loves to travel and enjoys indulging at the latest and greatest restaurants. Never one to sit still, he is always busy. When he is not working on a project you can find him at the gym or taking photos in the nature. <br><br> if you have any questions, feel free to reach out to me! 
+                        <bold>JavaScript</bold> as well as many of the associated frameworks like
+                        <bold>React</bold> other back-end tools such as
+                        <bold>Node.js</bold> and
+                        <bold>MySQL</bold>. <br><br> He is driven, passionate, and committed to delivering clear and concise code. He lives to broaden his understanding of development principles and to utilize the knowledge by creating profound connections with a variety of audiences. Detail oriented, he thrives on learning about new innovative methods. <br><br> In his free time, he is busy creating and designing new projects and templates. He loves to travel and enjoys indulging at the latest and greatest restaurants. Never one to sit still, he is always busy. When he is not working on a project you can find him at the gym or taking photos in the nature. <br><br> If you have any questions, feel free contact at
+                        <bold>647-546-6991</bold>
                     </p>
 
                 </div>
@@ -81,6 +84,7 @@
                             </p>
                             <p class="center-text">C, C++, PHP, Assembly, MATLAB, Haskell</p>
                         </p>
+
                     </div>
                     <hr>
                     <div>
@@ -94,12 +98,14 @@
                             </p>
                             <p class="center-text">Node.js, Angular</p>
                         </p>
+
                     </div>
                     <hr>
                     <div class="to-learn-list">
                         <h3 class="autobio center-text">Next To Learn</h3>
                         <span class="center-text">
                         <li>Rust</li>
+                        <li>Machine Learning</li>
                         <li>F#</li>
                         <li>GO</li>
                         <li>Erlang</li>
@@ -116,35 +122,20 @@
             <h3 class="text-center about-text" id="toPortfolio">Portfolio</h3>
         </section>
         <section class="flex-container">
-    
-        <div class="card">
-           <a href="http://quotemachine.kylecheung.ca/" target="_blank">
-            <img src="assets/images/quote-screen.jpg" height="200px" width="150px" >
-            <div class="container-desc">
-                <h4 class="card-text"><b>Quote Machine</b></h4>
+            <div class="portfolio-icon center-text">
+                <a href=https://github.com/k4iru/Portfolio><i class="fab fa-github-square fa-10x"></i></a>
+                <h4 class="center-text">Check out my Projects on Github!</h4>
             </div>
-            </a>
-        </div>
-        
-        <div class="card">
-           <a href="http://quotemachine.kylecheung.ca/" target="_blank">
-            <img src="http://www.thejourneywith.us/hp_wordpress/wp-content/uploads/2017/12/coming-soon.png" height="200px" width="150px" >
-            <div class="container-desc">
-                <h4 class="card-text"><b>Coming Soon..</b></h4>
+
+            <div class="portfolio-icon center-text">
+                <a href="assets/resume/resume.pdf">
+            <i class="fas fa-file-alt fa-10x"></i></a>
+                <h4 class="center-text">Check out my Resume!</h4>
+
             </div>
-            </a>
-        </div>
-        
-        <div class="card">
-           <a href="http://quotemachine.kylecheung.ca/" target="_blank">
-            <img src="http://www.thejourneywith.us/hp_wordpress/wp-content/uploads/2017/12/coming-soon.png" height="200px" width="150px" >
-            <div class="container-desc">
-                <h4 class="card-text"><b>Coming Soon..</b></h4>
-            </div>
-            </a>
-        </div>
+
         </section>
-        
+
     </main>
 
 </body>
