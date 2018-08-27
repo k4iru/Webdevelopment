@@ -4,6 +4,7 @@ import React, {
 
 import Footer from '../footerComponent/footer';
 import Header from '../headerComponent/header';
+import Mainmenu from '../menuComponent/mainmenu';
 
 class Homepage extends Component {
   render() {

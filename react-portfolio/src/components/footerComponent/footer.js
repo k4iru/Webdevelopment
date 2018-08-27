@@ -5,6 +5,7 @@ import React, {
 class Footer extends Component {
   render() {
     return ( <footer>
+      <p>footer stuff</p>
       </footer>
 
     );

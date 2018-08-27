@@ -1,7 +1,6 @@
-body{
-    font-family: 'Roboto Mono', monospace;
+@import "_config.scss";
 
-  a {
-    color: black;
-  }
+Menu {
+  width: 100px;
+  height: 100px;
 }
