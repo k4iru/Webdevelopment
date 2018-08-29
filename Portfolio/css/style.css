@@ -26,13 +26,13 @@ html {
 
 .flex-container {
     padding-top: 100px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: GhostWhite;
+    color: #808080;
 }
 
 /*
@@ -173,7 +173,7 @@ About
 
 .about-left {
     float: left;
-    max-width: 40%;
+    width: 40%;
 }
 
 .about-right {
@@ -395,5 +395,20 @@ i {
     color: #303030;
 }
 
+@media screen and (max-width: 800px) {
+  .about-left, .about-right {
+    width: 90%; /* The width is 100%, when the viewport is 800px or smaller */
+    margin-left: 0;
+  }
+}
+
+.line-spacer {
+    line-height: 1.8em;
+    
+}
+
+.about-right, .about-left {
+    color: #808080;
+}
 
 

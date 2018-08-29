@@ -1,7 +1,7 @@
 import React, {
   Component
 } from 'react';
-import { slide as Menu } from 'react-burger-menu';
+import { reveal as Menu } from 'react-burger-menu';
 
 class Mainmenu extends React.Component {
   showSettings (event) {

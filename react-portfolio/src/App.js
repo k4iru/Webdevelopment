@@ -14,8 +14,8 @@ class App extends Component {
     return (
       <div className="App">
 
-        <Mainmenu />
-        <FontAwesomeIcon icon="bars" size='2x'/>
+        <Mainmenu width={ 280 }  />
+      <FontAwesomeIcon icon="bars" size='2x'/>
 
         <Homepage />
 
