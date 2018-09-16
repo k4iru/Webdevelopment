@@ -400,6 +400,11 @@ i {
     width: 90%; /* The width is 100%, when the viewport is 800px or smaller */
     margin-left: 0;
   }
+    
+    .nav-item {
+    margin: 0 auto;
+    }
+
 }
 
 .line-spacer {
