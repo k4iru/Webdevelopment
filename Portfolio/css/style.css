@@ -112,7 +112,7 @@ Media
 }
 
 .bg {
-    background-image: url("http://www.publicdomainpictures.net/pictures/160000/velka/ordinateur-de-bureau-pc-1456070535WEH.jpg");
+    background-image: url(../assets/images/background.jpg);
     background-position: center center;
     height: 600px;
 }
