@@ -6,7 +6,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.2",
     "@fortawesome/free-solid-svg-icons": "^5.2.0",
     "@fortawesome/react-fontawesome": "^0.1.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-changed": "^3.2.0",
     "gulp-clean-css": "^3.10.0",
     "gulp-rename": "^1.4.0",
